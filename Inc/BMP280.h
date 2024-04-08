@@ -327,9 +327,9 @@ typedef struct
 
 //======================== 4. Private Variables =========================================
 
-BMP_Handle_Typedef bmp;			//instance of BMP_Handle_Typedef
+extern BMP_Handle_Typedef bmp;			//instance of BMP_Handle_Typedef
 
-SPI_HandleTypeDef hspi1;		//instance of SPI handle_Typedef
+extern SPI_HandleTypeDef hspi1;		//instance of SPI handle_Typedef
 
 //======================== 5. Init Function Prototypes =========================================
 
